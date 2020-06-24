@@ -1,0 +1,348 @@
+*{
+    margin:0;
+    padding: 0;
+
+}
+#header{
+    height: 100vh;
+    background-image: url(images/backgraond.PNG);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 200px;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
+.header-text{
+    max-width:350px;
+    margin-top:-110px;
+    margin-left: 935px;
+    
+}
+h1{
+    font-size: 34px;
+    font-family: "Thabit",serif;
+    text-align:center;
+    direction: rtl;
+    
+}
+.common-btn{
+    padding: 8px 35px;
+    background: transparent;
+    outline: none;
+    border: 2px solid #64beb8;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+p{
+    font-size: 20px;
+    color: #363636;
+}
+#sideNav{
+    width: 150px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background-color: #64beb8;
+    z-index: 2;
+    transition: .5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+#menuBtn{
+    width: 35px;
+    position: fixed;
+    right: 15px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+#about{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis:50%;
+}
+.about-left-col img{
+    width:100%;
+}
+.about-right-col{
+    flex-basis:50%;
+    text-align:center;
+}
+.about-text{
+    max-width: 500px;
+    margin-left: 100px;
+    display: inline-block;
+}
+
+#features{
+    padding-top: 50px;
+    padding-bottom:50px;
+
+}
+.features-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.features-col{
+    flex-basis: 25%;
+    text-align: center;
+
+}
+.features-col img{
+    width:100px;
+}
+.features-col h2{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.features-col p{
+    font-size: 18px;
+    color: #363636;
+}
+.features-btn{
+    margin: 90px auto 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+#new{
+    padding:180px 0 ;
+}
+.new-row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+}
+.new-right-col{
+    flex-basis: 50%;
+}
+.new-right-col img{
+    width: 100%;
+}
+.new-left-col{
+flex-basis: 50%;
+}
+.new-text{
+    text-align:center;
+    direction: rtl;
+}
+.new-text button{
+    margin: 30px 0;
+}
+
+
+
+#offer{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col{
+    flex-basis:50%;
+}
+.about-left-col img{
+    width:100%;
+    margin-left: 30px;
+}
+.about-right-col{
+    flex-basis:50%;
+    text-align:center;
+}
+.about-text{
+    max-width: 500px;
+    margin-left: 80px;
+    
+    margin-bottom: 80px;
+}
+.offer button{
+    margin: 30px 0;
+    
+}
+
+
+.contact-row{
+    display: flex;
+    align-items:left;
+    flex-wrap:wrap;
+}
+.contact-left-col, .contact-right-col{
+flex-basis: 50%;
+}
+
+.contact-right-col img{
+    width: 110%;
+}
+
+form{
+    max-width: 350px;
+    margin: 40px 0;
+    margin-left: 150px;
+    
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid  #64beb8;
+}
+
+
+.btn-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btn-box button{
+    flex-basis:30%;
+    padding: 12px 0;
+    margin-left: 120px;
+}
+
+
+#footer{
+
+padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top:1px solid #64beb8;
+}
+
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 35%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-links h2{
+    font-size: 20px;
+    font-family: "Thabit",serif;
+    text-align:center;
+    margin-bottom: 20px;
+    color: #64beb8;
+    
+}
+.link-title small{
+    font-size: 15px;
+    font-family: "Thabit",serif;
+    text-align:center;
+    color: "#777";
+}
+
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 130px;
+
+}
+.copyright-text, .footer-logo{
+    flex-basis: 40%;
+
+
+}
+
+
+
+.social-icon{
+    width: 50px;
+    position: fixed;
+    top:50%;
+    left: 0;
+    transform:translateY(-50%);
+    z-index: 1
+;}
+.social-icon img{
+    display: block;
+    width: 20px;
+    margin:0 auto 20px;
+    cursor: pointer;
+
+}
+
+@media only screen and (max-width:770px){
+    #header{
+        background-image: none;
+    }
+    
+.container{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.logo{
+    margin-top: 27px;
+    width: 70px;
+}
+@import url(http://fonts.googleapis.com/earlyaccess/thabit.css);
+.header-text{
+    margin-top:100px;
+    
+}
+h1{
+    font-size: 25px;
+    font-family: "Thabit",serif;
+    text-align:center;
+    direction: rtl;
+    
+}
+#menuBtn{
+    width: 25px;
+    position: fixed;
+    right: 7px;
+    
+}
+.common-btn{
+    padding: 10px 16px;
+}
+
+
+}
